@@ -3,3 +3,49 @@
     padding: 0;
 }
 
+html {
+    background-color: #EFEFEF;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    height: 2000px;
+    background-color: #ffd180;
+}
+
+header {
+    background-color: #40241a;
+    padding: 10px;
+}
+
+.title {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    color: #9575cd;
+}
+
+.explain {
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
+    margin: 70px 0 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+.todo:focus {
+    outline:none;
+    border: 1px solid #000;
+}
