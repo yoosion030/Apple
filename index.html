@@ -13,20 +13,19 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="title">빨리빨리</h1>
-    </header>
-
-    <main>
-        <p class="explain">할 일을 적어주세요 빨리</p>
-        <div class="container">
-            <input type="text" class="todo">
-            <button class="check">
-                ✅
-            </button>
-        </div>
-        <div class="item__list"></div>
-    </main>
+    <div class="wrap">
+        <header>
+        </header>
+        <main>
+            <p class="explain">할 일을 적어주세요 빨리</p>
+            <div class="container">
+                <input type="text" class="todo" id="input" onchange="printName()"/>
+                <button type="button" class="check" id="button" onclick='printTodo()''>
+                    ✅
+                </button>
+            </div>
+        </main>
+    </div>
 
     <script src="src/app.js"></script>
 </body>
