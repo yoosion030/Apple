@@ -12,7 +12,11 @@ function printTodo() {
   newDiv.className = 'list';
   // 4. <body>에 1에서 만든 <div> element 붙이기
   document.body.appendChild(newDiv);
-
+  if(value !== '')
+  {const newBtn = document.createElement('button');
+  newBtn.className = 'checkBox';
+  newDiv.appendChild(newBtn);
+  }
 } 
 
 

@@ -10,13 +10,12 @@ html {
 body {
     margin: 0 auto;
     width: 500px;
-    height:700px;
+    height: 700px;
     background-color: #ffd180;
     margin-top: 100px;
     border-radius: 30px;
 }
-.wrap {
-}
+
 header {
     background-color: #40241a;
     border-top-right-radius: 30px;
@@ -24,40 +23,66 @@ header {
     height: 70px;
 }
 
-.title {
-    font-family: 'Do Hyeon', sans-serif;
-    text-align: center;
-    color: white;
-}
-
 .explain {
     text-align: center;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 20px;
-    margin: 70px 0 20px 0;
+    font-size: 36px;
+    margin: 40px 0 20px 0;
 }
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
 
 .todo {
-    width: 250px;
+    width: 230px;
     height: 35px;
     border-radius: 10px;
     border: none;
     background-color: #fff;
+    margin-left: 110px;
 }
 
 .todo:focus {
     outline: none;
-    border: 1px solid #000;
 }
+
+.todo {
+    padding-left: 24px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.check {
+    background-image: url(/images/button.png);
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
 
 .list {
     font-family: 'Do Hyeon', sans-serif;
     padding-left: 110px;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.checkBox {
+    border-radius: 3px;
+    border: 3px solid #000;
+    width: 22px;
+    height: 22px;
+    outline: none;
+    margin-left: 20px;
+}
+
+button:hover {
+    filter: brightness(0.9);
 }
