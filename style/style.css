@@ -7,7 +7,7 @@ html {
     background-color: #EFEFEF;
 }
 
-body {
+.wrap {
     margin: 0 auto;
     width: 500px;
     height: 700px;
@@ -31,19 +31,13 @@ header {
     margin: 40px 0 20px 0;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
 .todo {
     width: 230px;
     height: 35px;
     border-radius: 10px;
     border: none;
     background-color: #fff;
-    margin-left: 110px;
+    margin: 0 20px 30px 100px;
 }
 
 .todo:focus {
@@ -64,9 +58,8 @@ button {
     height: 24px;
     border: none;
     border-radius: 3px;
-    margin-left: 30px;
+    vertical-align: middle;
 }
-
 
 .list {
     font-family: 'Do Hyeon', sans-serif;
