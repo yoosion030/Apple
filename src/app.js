@@ -1,6 +1,6 @@
 // const form = document.querySelector('form');
 function printTodo() {
-  const todoList = document.querySelector('.todoList');
+  const todoList = document.querySelector('.todoList'); 
   // value = input에 있는 내용
   const value = document.getElementById('input').value;
   // value를 텍스트노드로 만들기
@@ -19,15 +19,15 @@ function printTodo() {
 
   // value가 없으면 버튼 생성 x
   if (value !== '') {
-    const newBtn = document.createElement('button');
+    const newBtn = document.createElement('input');
+    newBtn.type = 'checkbox';
     newBtn.className = 'checkBox';
     newDiv.appendChild(newBtn);
   }
 }
 
 // const onSubmit = e => {
-//   e.preventDefault();
-//   printTodo();
-// }
-
-// form.addEventListener('submit', e => onSubmit(e));
+  //   e.preventDefault();
+  // }
+  
+  // form.addEventListener('submit', e => onSubmit(e));

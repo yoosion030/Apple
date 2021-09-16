@@ -75,6 +75,7 @@ button {
     height: 22px;
     outline: none;
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 button:hover {
