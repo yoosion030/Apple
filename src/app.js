@@ -11,7 +11,7 @@ function printTodo() {
 
   // 리스트 내용 담을 span태그 생성
   const content = document.createElement('span');
-
+  content.className = 'content';
   content.appendChild(newText); // 내용을 span 태그에 담기
   newDiv.appendChild(content); // span태그를 div태그 안에 넣기
 
@@ -23,6 +23,11 @@ function printTodo() {
     newBtn.type = 'checkbox';
     newBtn.className = 'checkBox';
     newDiv.appendChild(newBtn);
+    const delBtn = document.createElement('img');
+    delBtn.className = 'delete';
+    delBtn.src = '/images/trash.svg';
+    newDiv.appendChild(delBtn);
+
   }
 }
 
