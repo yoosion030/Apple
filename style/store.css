@@ -2,6 +2,11 @@
     color: #6e6e73;
 }
 
+.currnet {
+    width: 900px;
+    margin: auto;
+}
+
 .scroll::-webkit-scrollbar {
     display: none;
 }
@@ -27,5 +32,5 @@
 
 .product:hover {
     box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
-    transform: scale3d(1.01,1.01,1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
 }
