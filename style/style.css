@@ -1,0 +1,101 @@
+@font-face {
+    font-family: AppleEB;
+    src: url(/fonts/AppleSDGothicNeoEB.ttf);
+}
+
+@font-face {
+    font-family: AppleEB;
+    src: url(/fonts/AppleSDGothicNeoB.ttf);
+}
+
+@font-face {
+    font-family: AppleL;
+    src: url(/fonts/AppleSDGothicNeoL.ttf);
+}
+
+@font-face {
+    font-family: AppleSB;
+    src: url(/fonts/AppleSDGothicNeoL.ttf);
+}
+
+html {
+    font-size: 14px;
+    font-family: AppleL;
+    overflow-x: hidden;
+}
+
+.main-header {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.link {
+    color: #d8d8da;
+    font-size: 1em;
+    transition: .4s;
+}
+
+.link:hover {
+    color: white;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.title {
+    padding: 1.5em 0 0.5em;
+    text-align: center;
+    font-family: AppleEB;
+    font-size: 3.5em;
+}
+
+.mid-title {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.section1 {
+    height: 800px;
+}
+
+.apple1,.apple3 {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.section2 {
+    padding-top: 100px;
+    background-color: #064d24;
+}
+
+.background {
+    background-image: url(/images/f6f1216529dd1d906324d836183e40a4--apple-painting-apple-art.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+}
+
+.message {
+    text-align: center;
+    font-family: AppleSB;
+    color:crimson;
+}
+
+footer {
+    margin-top: 20px;
+    height: 500px;
+    background-color: #F5F5F7;
+}
