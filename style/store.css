@@ -1,0 +1,31 @@
+.gray {
+    color: #6e6e73;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll {
+    overflow-x: auto;
+    padding-left: 500px;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+}
+
+.product {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: #faf9fb;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 10%);
+    transition: all .3s cubic-bezier(0, 0, .5, 1);
+    border-radius: 18px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.product:hover {
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
+    transform: scale3d(1.01,1.01,1.01);
+}
