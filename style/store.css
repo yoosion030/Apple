@@ -2,9 +2,21 @@
     color: #6e6e73;
 }
 
-.currnet {
+.store-title {
+    font-size: 3.2em;
     width: 900px;
     margin: auto;
+    margin-bottom: 350px;
+    font-family: AppleB;
+    padding-top: 180px;
+}
+
+.currnet {
+    font-size: 1.8em;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: AppleB;
 }
 
 .scroll::-webkit-scrollbar {
@@ -13,7 +25,7 @@
 
 .scroll {
     overflow-x: auto;
-    padding-left: 500px;
+    padding-left: 35em;
     white-space: nowrap;
     -ms-overflow-style: none;
 }
@@ -31,6 +43,46 @@
 }
 
 .product:hover {
-    box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 50%);
     transform: scale3d(1.01, 1.01, 1.01);
+}
+
+#product3 {
+    background-image: url(/images/01_-_WBW.jpg);
+    background-position: -140px;
+    color: white;
+}
+
+#product1 {
+    background-image: url(/images/다운로드\ \(2\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px;
+}
+
+#product2{
+    background-image: url(/images/img_MKH191107001_0.jpg);
+    background-position: center;
+}
+
+#product4 {
+    background-image: url(/images/apple-free-desktop-background-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.date {
+    font-size: 0.9em;
+    margin: 2rem 0 0 2rem;
+}
+
+.coment {
+    font-size: 2em;
+    margin: 0.5rem 0 0 2rem;
+    font-family: AppleB;
+}
+
+.money {
+    font-size: 1.5rem;
+    margin: 1rem 0 0 2rem;
 }
