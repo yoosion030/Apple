@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: AppleEB;
+    font-family: AppleB;
     src: url(/fonts/AppleSDGothicNeoB.ttf);
 }
 
@@ -28,6 +28,7 @@ html {
     position: fixed;
     background-color: rgb(0, 0, 0, 0.8);
     width: 100%;
+    z-index: 100;
 }
 
 .links {
@@ -83,12 +84,16 @@ html {
     background-color: #064d24;
 }
 
+
 .background {
     background-image: url(/images/f6f1216529dd1d906324d836183e40a4--apple-painting-apple-art.jpg);
     background-repeat: no-repeat;
     background-size: 700px 700px;
     height: 700px;
     background-position: center;
+}
+.section3{
+    height: 700px;
 }
 
 .message {
@@ -98,7 +103,6 @@ html {
 }
 
 footer {
-    margin-top: 20px;
     height: 500px;
     background-color: #F5F5F7;
 }
