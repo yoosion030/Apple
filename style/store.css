@@ -11,7 +11,7 @@
     padding-top: 180px;
 }
 
-.currnet {
+.current {
     font-size: 1.8em;
     width: 900px;
     margin: auto;
@@ -25,9 +25,10 @@
 
 .scroll {
     overflow-x: auto;
-    padding-left: 35em;
+    padding-left: 25vw;
     white-space: nowrap;
     -ms-overflow-style: none;
+    padding-bottom: 50px;
 }
 
 .product {
@@ -40,6 +41,7 @@
     border-radius: 18px;
     margin: 0 20px;
     cursor: pointer;
+    color: black;
 }
 
 .product:hover {
@@ -85,4 +87,28 @@
 .money {
     font-size: 1.5rem;
     margin: 1rem 0 0 2rem;
+}
+
+.help{
+    display: block;
+    width: 800px;
+    height: 500px;
+    background-color: #faf9fb;
+    border-radius: 30px;
+    margin: 0px auto 300px;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 10%);
+    transition: all .3s cubic-bezier(0, 0, .5, 1);
+    color: #000;
+}
+
+.help:hover {
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 50%);
+    transform: scale3d(1.01, 1.01, 1.01);
+}
+
+.help-coment{
+    font-size: 2em;
+    font-family: AppleB;
+    padding: 4.5rem 0 0 2rem;
 }
