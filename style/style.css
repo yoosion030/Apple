@@ -25,6 +25,7 @@ html {
 }
 
 .main-header {
+    position: fixed;
     background-color: rgb(0, 0, 0, 0.8);
     width: 100%;
 }
@@ -54,13 +55,14 @@ html {
 }
 
 .title {
-    padding: 1.5em 0 0.5em;
+    padding: 3em 0 0.5em;
     text-align: center;
     font-family: AppleEB;
     font-size: 3.5em;
 }
 
 .mid-title {
+    color: #1d1d1f;
     text-align: center;
     font-size: 1.2em;
 }
@@ -69,7 +71,8 @@ html {
     height: 800px;
 }
 
-.apple1,.apple3 {
+.apple1,
+.apple3 {
     display: block;
     margin: 0 auto;
     max-width: 700px;
@@ -82,20 +85,33 @@ html {
 
 .background {
     background-image: url(/images/f6f1216529dd1d906324d836183e40a4--apple-painting-apple-art.jpg);
-    height: 700px;
     background-repeat: no-repeat;
     background-size: 700px 700px;
+    height: 700px;
     background-position: center;
 }
 
 .message {
     text-align: center;
     font-family: AppleSB;
-    color:crimson;
+    color: crimson;
 }
 
 footer {
     margin-top: 20px;
     height: 500px;
     background-color: #F5F5F7;
+}
+
+.title-3 {
+    text-align: center;
+    font-family: AppleEB;
+    font-size: 3.5em;
+    padding-top: 1.5em;
+}
+
+.mid-title-3 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
 }
