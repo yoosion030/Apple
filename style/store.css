@@ -49,26 +49,26 @@
     transform: scale3d(1.01, 1.01, 1.01);
 }
 
-#product3 {
-    background-image: url(/images/01_-_WBW.jpg);
-    background-position: -140px;
-    color: white;
-}
-
 #product1 {
-    background-image: url(/images/다운로드\ \(2\).jfif);
+    background-image: url(/images/sliceApple.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -100px;
 }
 
-#product2{
-    background-image: url(/images/img_MKH191107001_0.jpg);
+#product2 {
+    background-image: url(/images/handApple.jpg);
     background-position: center;
 }
 
+#product3 {
+    background-image: url(/images/colorApple.jpg);
+    background-position: -140px;
+    color: white;
+}
+
 #product4 {
-    background-image: url(/images/apple-free-desktop-background-wallpaper-preview.jpg);
+    background-image: url(/images/waterApple.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -89,7 +89,7 @@
     margin: 1rem 0 0 2rem;
 }
 
-.help{
+.help {
     display: block;
     width: 800px;
     height: 500px;
@@ -107,7 +107,7 @@
     transform: scale3d(1.01, 1.01, 1.01);
 }
 
-.help-coment{
+.help-coment {
     font-size: 2em;
     font-family: AppleB;
     padding: 4.5rem 0 0 2rem;
