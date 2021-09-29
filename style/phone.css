@@ -1,0 +1,31 @@
+.apple-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3em;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.applePhone{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.phone {
+    text-align: center;
+    color: #000;
+}
+
+.appleName {
+    text-align: center;
+    display: block;
+    width: 75px;
+}
+
+.phone:hover .appleName{
+    color: #06c;
+}
