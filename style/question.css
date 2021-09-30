@@ -1,4 +1,4 @@
-.appleSupport{
+.appleSupport {
     height: 60vh;
     background-image: url(/images/colorApple.jpg);
     color: white;
@@ -7,14 +7,11 @@
     background-position: center;
 }
 
-.title {
-    font-family: AppleL;
-}
-
 .search {
     border: 1px solid rgb(222, 222, 222);
-    height:250px;
+    height: 250px;
 }
+
 .search-title {
     padding: 40px 0;
     text-align: center;
@@ -25,7 +22,7 @@
     display: block;
     margin: 0 auto;
     width: 730px;
-    height:3.25rem;
+    height: 3.25rem;
     padding: 0 35px 0 50px;
     border: 1px solid rgb(187, 187, 187);
     font-size: 1.375rem;
@@ -34,8 +31,4 @@
 
 .search-box:focus {
     outline: none;
-}
-
-.search-box::placeholder {
-    vertical-align: middle;
 }
