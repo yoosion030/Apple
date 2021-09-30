@@ -27,10 +27,6 @@ html {
     padding-bottom: 3rem;
 }
 
-.scroll::-webkit-scrollbar {
-    display: none;
-}
-
 .scroll {
     overflow-x: auto;
     white-space: nowrap;
@@ -38,18 +34,9 @@ html {
     padding: 20px 23vw 50px;
 }
 
-.product {
-    display: inline-block;
-    width: 400px;
-    height: 500px;
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 10%);
-    transition: all .3s cubic-bezier(0, 0, .5, 1);
-    border-radius: 18px;
-    margin: 0 20px;
-    cursor: pointer;
-    color: black;
+.scroll::-webkit-scrollbar {
+    display: none;
 }
-
 
 .product {
     display: inline-block;
