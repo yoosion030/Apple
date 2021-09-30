@@ -24,6 +24,10 @@ html {
     overflow-x: hidden;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 .section1,
 .section3 {
     height: 100vh;

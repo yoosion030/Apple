@@ -5,7 +5,8 @@ html {
 .gray {
     color: #6e6e73;
 }
-.store{
+
+.store {
     height: 1500px;
 }
 
@@ -18,7 +19,7 @@ html {
     padding-top: 180px;
 }
 
-.current {
+.explain {
     font-size: 1.8em;
     width: 900px;
     margin: auto;
@@ -49,34 +50,49 @@ html {
     color: black;
 }
 
+
+.product {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    border-radius: 18px;
+    margin: 0 20px;
+}
+
+.product,
+.help {
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 70px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 10%);
+    transition: all .3s cubic-bezier(0, 0, .5, 1);
+}
+
 .product:hover {
-    box-shadow: 2px 4px 16px rgb(0 0 0 / 50%);
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 20%);
     transform: scale3d(1.01, 1.01, 1.01);
 }
 
 #product1 {
     background-image: url(/images/sliceApple.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 70px;
 }
 
 #product2 {
     background-image: url(/images/handApple.jpg);
-    background-repeat: no-repeat;
-    background-position: center 70px;
 }
 
 #product3 {
     background-image: url(/images/colorApple.jpg);
     background-position: -140px;
+    background-color: #000;
     color: white;
 }
 
 #product4 {
     background-image: url(/images/waterApple.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -91,32 +107,28 @@ html {
     font-family: AppleB;
 }
 
-
-
 .money {
     font-size: 1.5rem;
     margin: 1rem 0 0 2rem;
 }
 
+.sevice {
+    height: 100vh;
+}
+
 .help {
-    background-color: #fff;
     display: block;
     width: 700px;
     height: 600px;
     border-radius: 30px;
     margin: 0 auto;
-    cursor: pointer;
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 20%);
-    transition: all .3s cubic-bezier(0, 0, .5, 1);
-    color: #000;
-    background-repeat: no-repeat;
     background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-specialist-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626296836000);
-    background-position: center  -100px;
+    background-position: center -100px;
     background-size: 700px 700px;
 }
 
 .help:hover {
-    box-shadow: 2px 4px 16px rgb(0 0 0 / 50%);
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 20%);
     transform: scale3d(1.01, 1.01, 1.01);
 }
 
@@ -125,4 +137,3 @@ html {
     font-family: AppleB;
     padding: 4.5rem 0 0 2rem;
 }
-

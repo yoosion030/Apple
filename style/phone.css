@@ -3,7 +3,7 @@
     background: #fbfbfd;
 }
 
-.apple-wrapper{
+.apple-wrapper {
     height: 11.5rem;
     display: flex;
     justify-content: space-around;
@@ -13,43 +13,41 @@
     padding-top: 30px;
 }
 
-.applePhone{
+.phone {
+    text-align: center;
+    color: #000;
+}
+
+.applePhone {
     display: block;
     width: 30px;
     height: 30px;
     margin: 0 auto;
 }
 
-.phone {
-    text-align: center;
-    color: #000;
-}
-
 .appleName {
     text-align: center;
     display: block;
     width: 75px;
+    transition: .5s;
 }
 
-.phone:hover .appleName{
+.phone:hover .appleName {
     color: #06c;
 }
 
 .pro {
     background-color: white;
+    text-align: center;
+    height: 100vh;
 }
 
 .title {
     font-family: AppleSB;
 }
+
 .money {
     font-size: 1.5em;
     color: #1d1d1f;
-    text-align: center;
     margin-bottom: 20px;
-}
-
-.date {
-    text-align: center;
-    font-size: ;
 }
