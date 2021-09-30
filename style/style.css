@@ -28,9 +28,8 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-.section1,
-.section3 {
-    height: 100vh;
+.wrap {
+    text-align: center;
 }
 
 .main-header {
@@ -49,6 +48,11 @@ html::-webkit-scrollbar {
     margin: 0 auto;
 }
 
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
 .link {
     color: #d8d8da;
     font-size: 1em;
@@ -59,21 +63,18 @@ html::-webkit-scrollbar {
     color: white;
 }
 
-.logo {
-    width: 20px;
-    height: 20px;
+.section {
+    height: 90vh;
 }
 
 .title {
     padding-top: 3em;
-    text-align: center;
     font-family: AppleEB;
     font-size: 3.5em;
 }
 
 .mid-title {
     color: #1d1d1f;
-    text-align: center;
     font-size: 1.2em;
     padding-top: 0.5em
 }
@@ -100,7 +101,6 @@ html::-webkit-scrollbar {
 }
 
 .message {
-    text-align: center;
     font-family: AppleSB;
     color: crimson;
 }
