@@ -1,15 +1,24 @@
 .appleSupport {
     height: 60vh;
-    background-image: url(/images/colorApple.jpg);
+    background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.large_2x.jpg);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+.apple-wrapper {
+    max-width: 730px;
+}
+
+.title,
+.attention-title {
+    text-align: center;
+}
+
 .search {
     border: 1px solid rgb(222, 222, 222);
-    height: 250px;
+    height: 30vh;
 }
 
 .search-title {
@@ -19,6 +28,7 @@
 }
 
 .search-box {
+    box-sizing: border-box;
     display: block;
     margin: 0 auto;
     width: 730px;
@@ -31,4 +41,63 @@
 
 .search-box:focus {
     outline: none;
+}
+
+.attention {
+    height: 28vh;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.attention-title {
+    font-size: 1.5em;
+    padding-top: 2em;
+    color: #333;
+}
+
+.explain {
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.question {
+    height: 100vh;
+}
+
+.bigTitle {
+    font-size: 5em;
+    font-family: AppleB;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.list {
+    height: 90px;
+    max-width: 730px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+.listTitle {
+    font-size: 1.5em;
+    font-family: AppleL;
+}
+
+.accordion{
+    width: 20px;
+    height: 20px;
+}
+
+.questionBox {
+    display: flex;
+    justify-content: space-between;
+    width: 730px;
+    align-items: center;
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(242, 242, 242);
 }
