@@ -64,22 +64,22 @@ html {
 }
 
 #product1 {
-    background-image: url(/images/sliceApple.jfif);
+    background-image: url(./images/sliceApple.jfif);
 }
 
 #product2 {
-    background-image: url(/images/handApple.jpg);
+    background-image: url(./images/handApple.jpg);
 }
 
 #product3 {
-    background-image: url(/images/colorApple.jpg);
+    background-image: url(./images/colorApple.jpg);
     background-position: -140px;
     background-color: #000;
     color: white;
 }
 
 #product4 {
-    background-image: url(/images/waterApple.jpg);
+    background-image: url(./images/waterApple.jpg);
     background-position: center;
 }
 
@@ -109,7 +109,7 @@ html {
     height: 600px;
     border-radius: 30px;
     margin: 0 auto;
-    background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-specialist-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626296836000);
+    background-image: url(https://store.storeimages.cdn-apple.com/8756/as.-images.apple.com/is/store-card-50-specialist-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626296836000);
     background-position: center -100px;
     background-size: 700px 700px;
 }
