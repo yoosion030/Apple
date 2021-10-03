@@ -27,20 +27,41 @@
     font-size: 2.8em;
 }
 
-.search-box {
-    box-sizing: border-box;
+.search-form {
     display: block;
     margin: 0 auto;
     width: 730px;
+    position: relative;
+}
+
+.search-box {
+    width: 100%;
+    box-sizing: border-box;
     height: 3.25rem;
     padding: 0 35px 0 50px;
     border: 1px solid rgb(187, 187, 187);
     font-size: 1.375rem;
     color: #333;
+    font-family: AppleSB;
 }
 
 .search-box:focus {
     outline: none;
+}
+
+.searchSubmit {
+    position: absolute;
+    top: 127;
+    left: 0;
+    opacity: 0.4;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://km.support.apple.com/etc/designs/support/publish/commons/ac-assets/ac-toolkit/images/svg/search_icon_black.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 24px;
+    background-position: 12px 66%;
+    cursor: default;
 }
 
 .attention {
@@ -116,6 +137,7 @@
 .answerBox a {
     color: #0066cc;
 }
+
 footer {
     height: 300px;
     background-color: rgb(242, 242, 242);
