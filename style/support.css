@@ -1,3 +1,6 @@
+body {
+    background-color: white;
+}
 .appleSupport {
     height: 60vh;
     background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.large_2x.jpg);
