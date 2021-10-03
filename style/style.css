@@ -1,26 +1,26 @@
 @font-face {
     font-family: AppleEB;
-    src: url(/fonts/AppleSDGothicNeoEB.ttf);
+    src: url(../fonts/AppleSDGothicNeoEB.ttf);
 }
 
 @font-face {
     font-family: AppleB;
-    src: url(/fonts/AppleSDGothicNeoB.ttf);
+    src: url(../fonts/AppleSDGothicNeoB.ttf);
 }
 
 @font-face {
     font-family: AppleL;
-    src: url(/fonts/AppleSDGothicNeoL.ttf);
+    src: url(../fonts/AppleSDGothicNeoL.ttf);
 }
 
 @font-face {
     font-family: AppleSB;
-    src: url(/fonts/AppleSDGothicNeoSB.ttf);
+    src: url(../fonts/AppleSDGothicNeoSB.ttf);
 }
 
 @font-face {
     font-family: AppleM;
-    src: url(/fonts/AppleSDGothicNeoM.ttf);
+    src: url(../fonts/AppleSDGothicNeoM.ttf);
 }
 
 html {
