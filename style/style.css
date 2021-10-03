@@ -101,7 +101,7 @@ html::-webkit-scrollbar {
 }
 
 .background {
-    background-image: url(/images/bigGreenApple.jpg);
+    background-image: url(../images/bigGreenApple.jpg);
     background-repeat: no-repeat;
     background-size: 600px 700px;
     background-position: center;
