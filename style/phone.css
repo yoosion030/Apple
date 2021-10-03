@@ -1,3 +1,6 @@
+body {
+    background-color:rgb(242, 242, 242);
+}
 .miniStore {
     width: 100vw;
     background: #fbfbfd;
@@ -40,14 +43,83 @@
     background-color: white;
     text-align: center;
     height: 100vh;
+    padding-top: 5rem;
+    margin-bottom: 20px;
 }
 
-.title {
+.name {
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.main-title {
     font-family: AppleSB;
+    font-size: 3em;
+    margin-top: 1rem;
 }
 
 .money {
     font-size: 1.5em;
     color: #1d1d1f;
+    margin-top: 1em;
+}
+
+.date {
+    color: #86868b;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.link-wrapper {
+    display: flex;
+    margin: 2rem auto;
+    width: 250px;
+    justify-content: space-between;
+    line-height: 36px;
+    font-family: AppleSB;
+    align-items: center;
+}
+
+.button {
+    color: white;
+    background-color: #0071e3;
+    border-radius: 100px;
+    width: 120px;
+    height: 36px;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background: #0077ED;
+}
+.more {
+    color: #0066cc;
+    font-size: 1.3em;
+}
+
+.more:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+    color: #0066cc;
+    font-size: 1.5em;
+}
+
+.ability {
+    text-align: center;
+    background-color: #122239;
+    color: white;
+    width: 100vw;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 5rem;
+    background-size: cover;
+    background-image: url(/images/Apple-logo-blue-sector-shaped-background_3840x2160.jpg);
     margin-bottom: 20px;
+}
+
+.suggest {
+    background-color: white;
+    height:90vh;
 }
