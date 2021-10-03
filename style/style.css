@@ -15,7 +15,12 @@
 
 @font-face {
     font-family: AppleSB;
-    src: url(/fonts/AppleSDGothicNeoL.ttf);
+    src: url(/fonts/AppleSDGothicNeoSB.ttf);
+}
+
+@font-face {
+    font-family: AppleM;
+    src: url(/fonts/AppleSDGothicNeoM.ttf);
 }
 
 html {
@@ -82,8 +87,12 @@ html::-webkit-scrollbar {
 .apple1,
 .apple3 {
     display: block;
-    margin: 0 auto;
+    margin:  70px auto;
     max-width: 700px;
+}
+
+.apple1 {
+    height: 400px;
 }
 
 .section2 {
