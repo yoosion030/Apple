@@ -123,4 +123,16 @@ body {
 .suggest {
     background-color: white;
     height:90vh;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.bigStore {
+    height: 11.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
 }
