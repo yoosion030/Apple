@@ -31,7 +31,9 @@ html {
     overflow-x: auto;
     white-space: nowrap;
     -ms-overflow-style: none;
-    padding: 20px 23vw 50px;
+    padding: 20px 1vw 20px 25vw;
+    position: relative;
+    transition: 1s;
 }
 
 .scroll::-webkit-scrollbar {
@@ -40,8 +42,8 @@ html {
 
 .product {
     display: inline-block;
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     border-radius: 18px;
     margin: 0 20px;
 }
@@ -65,6 +67,7 @@ html {
 
 #product1 {
     background-image: url(../images/sliceApple.jfif);
+
 }
 
 #product2 {
@@ -89,7 +92,7 @@ html {
 }
 
 .coment {
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0.5rem 0 0 2rem;
     font-family: AppleB;
 }
@@ -97,6 +100,31 @@ html {
 .money {
     font-size: 1.5rem;
     margin: 1rem 0 0 2rem;
+}
+
+.asdas {
+    position: relative;
+    width: 100vw;
+    height: 100px;
+}
+
+.left {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/chevron-circle-left-solid.svg);
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+.right {
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/chevron-circle-right-solid.svg);
+    position: absolute;
+    top: 250px;
+    left: 1600px;
 }
 
 .sevice {
