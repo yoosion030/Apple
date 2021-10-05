@@ -1,6 +1,7 @@
 body {
-    background-color:rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
 }
+
 .miniStore {
     width: 100vw;
     background: #fbfbfd;
@@ -44,7 +45,7 @@ body {
     text-align: center;
     height: 100vh;
     padding-top: 5rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .name {
@@ -92,6 +93,7 @@ body {
 .button:hover {
     background: #0077ED;
 }
+
 .more {
     color: #0066cc;
     font-size: 1.3em;
@@ -108,31 +110,53 @@ body {
 
 .ability {
     text-align: center;
-    background-color: #122239;
     color: white;
     width: 100vw;
     margin: 0 auto;
     height: 100vh;
     padding-top: 5rem;
     background-size: cover;
-    background-position: center;
+    background-position: center 5px;
+    background-repeat: no-repeat;
     background-image: url(../images/Apple-logo-blue-sector-shaped-background_3840x2160.jpg);
     margin-bottom: 20px;
 }
 
 .suggest {
     background-color: white;
-    height:90vh;
+    height: 90vh;
     text-align: center;
     padding-top: 10rem;
 }
 
 .bigStore {
-    height: 11.5rem;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 30px;
+}
+
+.bigStore img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.bigStore .appleName {
+    width: auto;
+    font-size: 2em;
+    font-family: AppleB;
+    width: 5.5em;
+    margin: 50px 0;
+}
+
+.bigStore .appleName:nth-child(3){
+    margin: 16px 0;
+}
+
+.new {
+    color: #bf4800;
+    margin: 20px 0 0;
 }
