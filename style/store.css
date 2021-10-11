@@ -108,25 +108,6 @@ html {
     height: 100px;
 }
 
-.left {
-    width: 50px;
-    height: 50px;
-    background-image: url(../images/chevron-circle-left-solid.svg);
-    position: absolute;
-    top: 250px;
-    left: 10px;
-}
-
-.right {
-    opacity: 0;
-    width: 50px;
-    height: 50px;
-    background-image: url(../images/chevron-circle-right-solid.svg);
-    position: absolute;
-    top: 250px;
-    left: 1600px;
-}
-
 .sevice {
     height: 100vh;
 }

@@ -2,19 +2,22 @@ body {
     background-color: rgb(242, 242, 242);
 }
 
+.main-header {
+    position: static;
+}
+
 .miniStore {
     width: 100vw;
     background: #fbfbfd;
 }
 
 .apple-wrapper {
-    height: 11.5rem;
+    height: 7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-width: 700px;
     margin: 0 auto;
-    padding-top: 30px;
 }
 
 .phone {
@@ -74,20 +77,20 @@ body {
 .link-wrapper {
     display: flex;
     margin: 2rem auto;
-    width: 250px;
+    width: 220px;
     justify-content: space-between;
-    line-height: 36px;
     font-family: AppleSB;
     align-items: center;
+    font-size: 1em;
 }
 
 .button {
     color: white;
     background-color: #0071e3;
     border-radius: 100px;
-    width: 120px;
-    height: 36px;
-    font-size: 1.2em;
+    width: 7em;
+    height: 2.3em;
+    line-height: 2.3em;
 }
 
 .button:hover {
@@ -96,7 +99,7 @@ body {
 
 .more {
     color: #0066cc;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .more:hover {
@@ -105,7 +108,7 @@ body {
 
 .arrow {
     color: #0066cc;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .ability {
@@ -146,17 +149,29 @@ body {
 
 .bigStore .appleName {
     width: auto;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: AppleB;
     width: 5.5em;
-    margin: 50px 0;
+    margin: 40px 0;
+    text-align: center;
 }
 
-.bigStore .appleName:nth-child(3){
-    margin: 16px 0;
+.bigStore .appleName:nth-child(3) {
+    margin: 0px 0 40px 0;
 }
 
 .new {
     color: #bf4800;
-    margin: 20px 0 0;
+    margin: 10px 0 10px;
+}
+
+.bigStore .link-wrapper {
+    flex-direction: column;
+    width: 80px;
+}
+
+.bigStore .button,
+.more {
+    font-size: 0.8em;
+    margin-bottom: 10px;
 }
