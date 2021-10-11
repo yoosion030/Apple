@@ -12,11 +12,14 @@ body {
 
 .apple-wrapper {
     max-width: 730px;
+    height:250px;
+    font-size: 1.2em;
 }
 
 .title,
 .attention-title {
     text-align: center;
+    font-family: AppleL;
 }
 
 .search {
