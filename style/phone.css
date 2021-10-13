@@ -2,12 +2,7 @@ body {
     background-color: rgb(242, 242, 242);
 }
 
-.main-header {
-    position: static;
-}
-
 .miniStore {
-    width: 100vw;
     background: #fbfbfd;
 }
 
@@ -21,7 +16,6 @@ body {
 }
 
 .phone {
-    text-align: center;
     color: #000;
 }
 
@@ -31,7 +25,6 @@ body {
     height: 2.1em;
     margin: 0 auto;
 }
-
 
 .appleName {
     display: flex;
@@ -47,12 +40,16 @@ body {
     color: #06c;
 }
 
-.pro {
-    background-color: white;
+.pro,
+.ability {
     text-align: center;
     height: 100vh;
     padding-top: 5rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.pro {
+    background-color: white;
 }
 
 .name {
@@ -61,30 +58,30 @@ body {
 }
 
 .main-title {
-    font-family: AppleSB;
+    margin-top: 1em;
     font-size: 3em;
-    margin-top: 1rem;
+    font-family: AppleSB;
 }
 
 .money {
+    margin-top: 1em;
     font-size: 1.5em;
     color: #1d1d1f;
-    margin-top: 1em;
 }
 
 .date {
-    color: #86868b;
     margin-top: 1em;
     font-size: 1.5em;
+    color: #86868b;
 }
 
 .link-wrapper {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 2rem auto;
     width: 14em;
-    justify-content: space-between;
     font-family: AppleSB;
-    align-items: center;
 }
 
 .button {
@@ -116,17 +113,11 @@ body {
 }
 
 .ability {
-    text-align: center;
     color: white;
-    width: 100vw;
-    margin: 0 auto;
-    height: 100vh;
-    padding-top: 5rem;
     background-size: cover;
     background-position: center 5px;
     background-repeat: no-repeat;
-    background-image: url(../images/Apple-logo-blue-sector-shaped-background_3840x2160.jpg);
-    margin-bottom: 20px;
+    background-image: url(../images/ability.jpg);
 }
 
 .suggest {
@@ -152,20 +143,20 @@ body {
     width: 200px;
 }
 
-.bigStore img {
+.apple img {
     width: 100px;
     height: 100px;
     margin-top: 50px;
 }
 
-.bigStore .appleName {
+.apple .appleName {
     width: auto;
     font-size: 1.5em;
     font-family: AppleB;
     margin-top: 40px;
 }
 
-.bigStore .appleName:nth-child(3) {
+.apple .appleName:nth-child(3) {
     margin: 0;
 }
 
@@ -178,34 +169,31 @@ body {
     line-height: 1.5em;
 }
 
-.bigStore .money {
+.apple .money {
     font-size: 1rem;
     margin-top: 20px;
 }
 
 .new {
     color: #bf4800;
-    margin: 13px 0 13px;
+    margin: 13px 0 11px;
 }
 
-.bigStore .link-wrapper {
+.apple .link-wrapper {
     flex-direction: column;
-    width: 80px;
 }
 
-.bigStore .button,
-.bigStore .more {
+.apple .button,
+.apple .more {
     font-size: 0.8em;
     margin-bottom: 10px;
     width: 5em;
 }
 
 .shop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: AppleSB;
     height: 20vh;
+    line-height: 20vh;
 }
 
 .shop .more {
@@ -218,7 +206,7 @@ body {
 }
 
 .use {
-    height: 170vh;
+    height: 190vh;
     background: 0% 0%;
     text-align: center;
     padding-top: 140px;
@@ -238,6 +226,17 @@ body {
     width: 100em;
     height: 40em;
     background-color: white;
+    background-image: url(../images/32-327426_m.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+
+.bigBox .title {
+    padding: 0;
+    line-height: 560px;
 }
 
 .smallBox {
@@ -245,6 +244,18 @@ body {
     height: 40em;
     background-color: white;
     grid-row-start: 2;
+}
+
+.SB1 {
+    background-image: url(../images/다운로드.jfif);
+    background-position: center;
+}
+
+.SB2 {
+    background-image: url(../images/다운로드\ \(1\).jfif);
+    background-position:;
+    background-repeat: no-repeat;
+
 }
 
 footer {
