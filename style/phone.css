@@ -231,7 +231,6 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
-    
 }
 
 .bigBox .title {
@@ -247,13 +246,13 @@ body {
 }
 
 .SB1 {
-    background-image: url(../images/다운로드.jfif);
+    background-image: url(../images/simple.png);
     background-position: center;
 }
 
 .SB2 {
-    background-image: url(../images/다운로드\ \(1\).jfif);
-    background-position:;
+    background-image: url(../images/cute.jfif);
+    background-position: center 10px;
     background-repeat: no-repeat;
 
 }
