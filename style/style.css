@@ -126,6 +126,6 @@ footer {
 
 @media screen and (max-width:700px) {
     .links {
-        max-width: 450px;
+        max-width: 400px;
     }
 }

@@ -7,24 +7,24 @@ html {
 }
 
 .store {
-    height: 1500px;
+    height: 130vh;
 }
 
 .store-title {
     font-size: 3.2em;
     width: 900px;
     margin: auto;
-    margin-bottom: 350px;
+    margin-bottom: 5em;
     font-family: AppleB;
-    padding-top: 180px;
+    padding-top: 3em;
 }
 
 .explain {
-    font-size: 1.8em;
+    font-size: 1.7em;
     width: 900px;
     margin: auto;
     font-family: AppleB;
-    padding-bottom: 3rem;
+    padding-bottom: 0.5em;
 }
 
 .scroll {
@@ -45,7 +45,7 @@ html {
     width: 350px;
     height: 450px;
     border-radius: 18px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .product,
@@ -91,7 +91,7 @@ html {
     margin: 2rem 0 0 2rem;
 }
 
-.coment {
+.comment {
     font-size: 1.8em;
     margin: 0.5rem 0 0 2rem;
     font-family: AppleB;
@@ -128,8 +128,27 @@ html {
     transform: scale3d(1.01, 1.01, 1.01);
 }
 
-.help-coment {
+.help-comment {
     font-size: 2em;
     font-family: AppleB;
     padding: 4.5rem 0 0 2rem;
+}
+
+.sale {
+    height: 80vh;
+}
+.sale .comment {
+    font-family: AppleSB;
+}
+
+.sale #product1 {
+    background-image: url(../images/twiceApple.jpg);
+    background-position: -250px 60px;
+}
+
+.sale #product2 {
+    background-color: black;
+    background-image: url(../images/nemoApple.jpg);
+    background-position: center 60px;
+    color: white;
 }
