@@ -6,6 +6,10 @@ body {
     background: #fbfbfd;
 }
 
+.main-header {
+    position: static;
+}
+
 .apple-wrapper {
     height: 7rem;
     display: flex;

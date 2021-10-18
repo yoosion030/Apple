@@ -10,6 +10,10 @@ html {
     height: 130vh;
 }
 
+.main-header {
+    position: static;
+}
+
 .store-title {
     font-size: 3.2em;
     width: 900px;
