@@ -123,3 +123,9 @@ footer {
     border-top: 1px solid #d2d2d7;
     max-width: 1000px;
 }
+
+@media screen and (max-width:700px) {
+    .links {
+        max-width: 450px;
+    }
+}
