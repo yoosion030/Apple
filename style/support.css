@@ -41,7 +41,7 @@ body {
 .search-form {
     display: block;
     margin: 0 auto;
-    width: 730px;
+    max-width: 730px;
     position: relative;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .attention {
-    height: 28vh;
+    height: 35vh;
     border-bottom: 1px solid rgb(222, 222, 222);
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .explain {
-    width: 730px;
+    max-width: 730px;
     margin: 0 auto;
     text-align: center;
     padding-top: 1em;
@@ -106,7 +106,7 @@ body {
 }
 
 .list {
-    max-width: 730px;
+    max-width: 52em;
     margin: 0 auto;
     border-bottom: 1px solid rgb(210, 210, 215);
     transition: 1s;
@@ -115,9 +115,9 @@ body {
 .questionBox {
     display: flex;
     justify-content: space-between;
-    width: 730px;
+    width: 100%;
     align-items: center;
-    height: 77px;
+    height: 5.5em;
     padding: 0;
 }
 
@@ -145,6 +145,18 @@ body {
     line-height: 1.58824;
 }
 
+.answerBox p {
+    font-size: 1.2rem;
+}
+
 .answerBox a {
     color: #0066cc;
+}
+
+@media screen and (max-width : 730px) {
+
+    .list {
+        font-size: 0.6em;
+    }
+    
 }

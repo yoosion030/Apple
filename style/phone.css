@@ -240,7 +240,7 @@ body {
 
 .bigBox .title {
     padding: 0;
-    line-height: 560px;
+    line-height: 11;
 }
 
 .smallBox {
@@ -257,7 +257,7 @@ body {
 
 .SB2 {
     background-image: url(../images/cute.jfif);
-    background-position: center 10px;
+    background-position: center 0.7em;
     background-repeat: no-repeat;
 }
 
@@ -274,10 +274,49 @@ footer {
         font-size: 1em;
     }
 
+    .use .main-title {
+        font-size: 2.5em;
+    }
+
+    .use {
+        height: 200vh;
+    }
+
+    .grid {
+        grid-template-rows: 1fr 0.5fr 0.5fr;
+        grid-template-columns: 1fr;
+    }
+
+    .bigBox {
+        font-size: 0.8em;
+    }
+
+    .smallBox {
+        font-size: 0.5em;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .bigBox {
+        width: 100vw;
+        background-size: auto;
+
+    }
+
+    .bigBox .title {
+        line-height: 10em;
+    }
+
+    .SB2 {
+        width: 100vw;
+        grid-row-start: 3;
+        background-position: center;
+    }
 }
 
 @media screen and (max-width:600px) {
     .suggest {
         font-size: 0.5em;
     }
+
 }
