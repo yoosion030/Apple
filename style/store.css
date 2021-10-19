@@ -7,7 +7,7 @@ html {
 }
 
 .store {
-    height: 130vh;
+    height: 120vh;
 }
 
 .main-header {
@@ -35,7 +35,7 @@ html {
     overflow-x: auto;
     white-space: nowrap;
     -ms-overflow-style: none;
-    padding: 20px 8em 20px 20em;
+    padding: 20px 15em 20px 35em;
     transition: 1s;
 }
 
@@ -91,28 +91,22 @@ html {
 
 .date {
     font-size: 0.9em;
-    margin: 2rem 0 0 2rem;
+    margin: 2em 0 0 2em;
 }
 
 .comment {
     font-size: 1.8em;
-    margin: 0.5rem 0 0 2rem;
+    margin: 0.5em 0 0 1em;
     font-family: AppleB;
 }
 
 .money {
     font-size: 1.5em;
-    margin: 1rem 0 0 2rem;
-}
-
-.asdas {
-    position: relative;
-    width: 100vw;
-    height: 100px;
+    margin: 0.5em 0 0 1.190em;
 }
 
 .sevice {
-    height: 100vh;
+    height: 70vh;
 }
 
 .help {
@@ -148,13 +142,13 @@ html {
 
 .sale #product1 {
     background-image: url(../images/twiceApple.jpg);
-    background-position: -250px 60px;
+    background-position: -17em 4em;
 }
 
 .sale #product2 {
     background-color: black;
     background-image: url(../images/nemoApple.jpg);
-    background-position: center 60px;
+    background-position: center 4em;
     color: white;
 }
 
@@ -162,10 +156,15 @@ html {
     background-color: white;
     color: black;
     background-image: url(../images/newApple.jpg);
-    background-position: center 50px;
+    background-position: center 3.5em;
 }
 
 @media screen and (max-width : 1000px) {
+
+    .store {
+        height: 100vh;
+    }
+
     .store-title {
         font-size: 2.5em;
     }
@@ -176,9 +175,43 @@ html {
 
     .scroll {
         font-size: 0.8em;
+        padding-left: 10em;
     }
 
     .help {
         font-size: 0.8em;
+    }
+
+    .sale {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width : 700px) {
+
+    .store {
+        height: 90vh;
+    }
+
+    .store-title {
+        font-size: 2em;
+        margin-left: 27px;
+    }
+
+    .scroll {
+        padding-left: 5em;
+    }
+
+    .explain {
+        font-size: 1.3em;
+        margin-left: 27px;
+    }
+
+    .sevice {
+        height: 70vh;
+    }
+
+    .sale {
+        height: 50vh;
     }
 }

@@ -155,8 +155,12 @@ body {
 
 @media screen and (max-width : 730px) {
 
+    .bigTitle {
+        font-size: 3.5em;
+    }
+
     .list {
         font-size: 0.6em;
     }
-    
+
 }
