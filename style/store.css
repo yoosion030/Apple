@@ -16,7 +16,7 @@ html {
 
 .store-title {
     font-size: 3.2em;
-    width: 900px;
+    width: 20em;
     margin: auto;
     margin-bottom: 5em;
     font-family: AppleB;
@@ -25,7 +25,7 @@ html {
 
 .explain {
     font-size: 1.7em;
-    width: 900px;
+    width: 37.5em;
     margin: auto;
     font-family: AppleB;
     padding-bottom: 0.5em;
@@ -35,8 +35,7 @@ html {
     overflow-x: auto;
     white-space: nowrap;
     -ms-overflow-style: none;
-    padding: 20px 10vw 20px 25vw;
-    position: relative;
+    padding: 20px 8em 20px 20em;
     transition: 1s;
 }
 
@@ -46,9 +45,9 @@ html {
 
 .product {
     display: inline-block;
-    width: 350px;
-    height: 450px;
-    border-radius: 18px;
+    width: 25em;
+    height: 32em;
+    border-radius: 1.2em;
     margin: 0 10px;
 }
 
@@ -102,7 +101,7 @@ html {
 }
 
 .money {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: 1rem 0 0 2rem;
 }
 
@@ -165,4 +164,18 @@ html {
     color: black;
     background-image: url(../images/newApple.jpg);
     background-position: center 50px;
+}
+
+@media screen and (max-width : 1000px) {
+    .store-title {
+        font-size: 2.5em;
+    }
+
+    .explain {
+        font-size: 1.3em;
+    }
+
+    .scroll {
+        font-size: 0.8em;
+    }
 }
