@@ -117,13 +117,12 @@ html {
 
 .help {
     display: block;
-    width: 700px;
-    height: 600px;
-    border-radius: 30px;
+    width: 50em;
+    height: 43em;
+    border-radius: 2em;
     margin: 0 auto;
     background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-specialist-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626296836000);
-    background-position: center -100px;
-    background-size: 700px 700px;
+    background-position: center -7em;
 }
 
 .help:hover {
@@ -176,6 +175,10 @@ html {
     }
 
     .scroll {
+        font-size: 0.8em;
+    }
+
+    .help {
         font-size: 0.8em;
     }
 }
